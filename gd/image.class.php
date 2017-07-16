@@ -26,6 +26,9 @@ class Image{
         $fun="imagecreatefrom".$this ->info['type'];
         $this->image=$fun($src);
     }
+    /*
+     * 压缩图片
+     */
     public function thumb($width,$height){
         $image_thumb=imagecreatetruecolor($width,$height);
         imagecopyresampled($image_thumb,$this->image,0,0,0,0,$width,$height,$this->info['width'],$this->info['height']);
