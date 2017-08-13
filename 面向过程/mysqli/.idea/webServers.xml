@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="eb0eabaa-c1aa-42cd-a4c1-49d8d25340f5" name="apach" url="http://localhost/mysqli/">
+        <fileTransfer port="0" mountedRoot="C:\wamp64\bin\apache" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
