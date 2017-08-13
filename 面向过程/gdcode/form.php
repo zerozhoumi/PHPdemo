@@ -6,6 +6,7 @@
  * Time: 19:57
  */
 if (isset($_REQUEST['authcode'])){
+	// session 启动会话；
     session_start();
 
     if (strtolower($_REQUEST['authcode']) == $_SESSION['authcode']) {
