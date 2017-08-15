@@ -1,13 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1
- * Date: 2017/8/12
- * Time: 20:25
- */
-$mysqli=new mysqli('localhost','root','','imoocComment');
+$mysqli=new mysqli('localhost','root','root','imoocComment');
 if($mysqli->errno){
-    die('Connect Error:'.$mysqli->error);
+	die('Connect Error:'.$mysqli->error);
 }else{
-    $mysqli->set_charset('UTF8');
+	$mysqli->set_charset('UTF8');
 }
