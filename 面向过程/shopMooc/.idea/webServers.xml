@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4b33c023-5534-4c52-ad06-db8f2a08413b" name="apach" url="http://localhost/shopMooc">
+        <fileTransfer port="0" mountedRoot="C:\wamp64\bin\apache" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

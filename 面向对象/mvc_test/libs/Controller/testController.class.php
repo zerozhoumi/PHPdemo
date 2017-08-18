@@ -1,14 +1,14 @@
 <?php
-	class testController{
-		function show(){//¿ØÖÆÆ÷µÄ×÷ÓÃÊÇµ÷ÓÃÄ£ÐÍ,²¢µ÷ÓÃÊÓÍ¼.½«Ä£ÐÍ²úÉúµÄÊý¾Ý´«µÝ¸øÊÓÍ¼.²¢ÈÃÏà¹ØÊÓÍ¼È¥ÏÔÊ¾
-			global $view;
-			//$testModel = new testModel();
-			$testModel = M('test');
-			$data = $testModel->get();
-			//$testView = V('test');
-			//$testView -> display($data);
-			$view ->assign('str', '¹þ¹þ¹þ¹þ');
-			$view ->display('test.tpl');
-		}
-	}
+class testController{
+    function show(){//æŽ§åˆ¶å™¨çš„ä½œç”¨æ˜¯è°ƒç”¨æ¨¡åž‹,å¹¶è°ƒç”¨è§†å›¾.å°†æ¨¡åž‹äº§ç”Ÿçš„æ•°æ®ä¼ é€’ç»™è§†å›¾.å¹¶è®©ç›¸å…³è§†å›¾åŽ»æ˜¾ç¤º
+        global $view;
+        //$testModel = new testModel();
+        $testModel = M('test');
+        $data = $testModel->get();
+        //$testView = V('test');
+        //$testView -> display($data);
+        $view ->assign('str', 'å“ˆå“ˆå“ˆå“ˆ');
+        $view ->display('test.tpl');
+    }
+}
 ?>
